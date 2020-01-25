@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Ramabhadra&display=swap" rel="stylesheet">
+   <script src="https://code.highcharts.com/highcharts.js"></script>
+   <script src="https://code.highcharts.com/modules/exporting.js"></script>
+   <script src="https://code.highcharts.com/modules/export-data.js"></script>
+   <title>Concertwise</title>
+</head>
+<body class="myBody">
+   <script src="https://cdn.anychart.com/js/8.0.1/anychart-core.min.js"></script>
+   <script src="https://cdn.anychart.com/js/8.0.1/anychart-pie.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <div id="bg">
+      <img src="./images/powder.jpg" alt="people throwing colorful powder in the sky">
+  </div>
+   <div class="container">
+    <div class = "row">
+        <div class="col-md-12">
+            <div class="jumbotron" style ="background-color: transparent">
+                <h1> <strong> ConcertWise  </strong></h1>
+            </div>
+        </div>
+    </div>
+    <div class ="row">
+        <div class="col-md-3">
+            <input type="text" id="myinput" placeholder="Search for events..">
+            <input type="submit" value="Submit" class="submit">
+            <table id="myTable">
+                <tr class="header">
+                    <th id="newArtist" style="width:60%;"> </th>
+                    <th id= "tickets" style="width:40%;"> </th>
+            </tr>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+            </table>
+            </div>
+        </div>
+        <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto" class="col-md-9"> <h2 class="cityresultone"> </h2> </div>
+     </div>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
